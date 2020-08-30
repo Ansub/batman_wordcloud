@@ -19,9 +19,9 @@ wc.recolor(color_func = image_colors)
 
 
 # #plotting
-# plt.imshow(wc, interpolation  = "bilinear")
-# plt.axis("off")
-# plt.show()
+plt.imshow(wc, interpolation  = "bilinear")
+plt.axis("off")
+plt.show()
 
 #save
 wc.to_file("batmanwordcloud.png")
